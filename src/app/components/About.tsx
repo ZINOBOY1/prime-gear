@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section className="relative py-16 px-6 text-center max-w-4xl mx-auto bg-white overflow-hidden">
       {/* Parallax Background */}
-      <div className="absolute inset-0 bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/background.jpg')" }}></div>
+      <div className="absolute inset-0 bg-fixed bg-center bg-cover" ></div>
       <div className="relative z-10 bg-white bg-opacity-80 p-8 rounded">
         <motion.h2
           className="text-3xl font-semibold mb-4"
